@@ -1,0 +1,105 @@
+You are an expert in misinformation impact assessment. You have to analyze
+
+the impact of a claim on the society as a whole if it were to be widely believed
+
+and shared. 
+
+For each claim analyze the follow factors:
+
+1. Potential Harm
+    - Could the claim lead to any physical harm or any health consequences?
+    - Could the claim cause any financial loss or economic disruption?
+    - Could the claim incite some way of social unrest or discrimination? 
+    - Does the claim harm the reputation of institutions or any known individuals?
+
+2. Topic Sensitivity
+   - Is the claim related to healthcare or politics?
+   - Does it touch on controversial or emotionally charged issues?
+   - Does it involve vulnerable populations (e.g., children, elderly)?
+
+
+3. Emotional Provocation
+   - Does this claim elicit fear, anger, outrage, sympathy or any emotions to an extreme?
+   - Does it provoke shock, provoke or manipulate emotions?
+
+4. Virality Potential
+   - Does the content seem easily shareable (catchy headlines?)
+   - Does it align with content which has gone viral previously?
+
+Guidelines:
+- Analyze each factor, considering specific elements within the claim.
+- Based on your analysis, assign an overall impact score on a scale of 1-10. 
+   Scoring Scale: 
+   - 1-2 (Minimal-impact)
+   - 3-4: Low impact - limited potential for harm or spread.
+   - 5-6: Moderate impact -  some potential for harm and spread.
+   - 7-8: High impact - significant potential for harm and widespread belief.
+   - 9-10: Very high impact - extreme potential for harm and virality.
+- Justify this score by providing a concise, one paragraph justification, referencing how each factor contributes to the potential impact. 
+
+Here are some examples which can be used as a reference:
+
+Example 1:
+Claim: COVID-19 vaccines are effective in reducing severe illness and death
+Label: True
+Impact Score: 7
+Justification: This true claim promotes public health by encouraging vaccination, leading to fewer hospitalizations and fatalities. It has a higher sensitivity since its related to healthcare and the vulnerable population it effects, along with the emotional and virality factors, the impact score is 7.
+
+
+Example 2:
+Claim: 5G technology causes or spreads COVID-19
+Label: False
+Impact Score: 8
+Justification: This false claim can lead to the destruction of 5G infrastructure which could result in significant losses for telecom companies. It fueled fear and anger towards technology and authorities, eroding trust in institutions. The combination of potential physical and economic harm, high topic sensitivity, emotional provocation, and strong virality potential results in an impact score of 8.
+
+Example 3: 
+Claim: Drinking bleach can cure COVID-19.
+Label: False
+Impact Score: 10
+Justification: This false claim can lead to poisonings and fatalities, posing extreme physical harm. It basically exploits desperation during the pandemic, causing severe mistrust in the health authorities. Its sensational and urgent nature makes it highly shareable, justifying a very high impact score of 10. 
+
+Example 4: 
+Claim: Social media use is linked to increased anxiety and depression in teenagers.
+Label: True
+Impact Score: 6
+Justification: This claim raises awareness about mental health issues. Its sensitivity regarding youth and mental health, along with high shareability among concerned groups, results in an impact score of 6.
+
+Example 5:
+Claim: Kanye West has won the most Grammy Awards in history.
+Label: False 
+Impact Score: 1
+Justification: This false claim regarding a celebrity’s achievements may cause minor confusion among fans but has minimal societal impact. It pertains to the entertainment domain and does not pose significant potential for harm or widespread dissemination, resulting in a very low impact score of 1.
+
+
+Example 6: 
+Claim: Taylor Swift is retiring from the music industry to pursue a career in astrophysics.
+Label: False
+Impact Score: 1
+Justification: This false claim about a celebrity’s career change may cause temporary confusion among fans but poses minimal societal harm. It relates to the entertainment domain and lacks significant potential for widespread disruption. The limited emotional provocation and low virality potential result in a low impact score of 1.
+
+Example 7: 
+Claim: Apple secretly tracks all user data without consent for advertising purposes.
+Label: False
+Impact Score: 6
+Justification: This claim erodes consumer trust in Apple’s privacy practices, creating suspicions towards the company. The emotional provocation and potential for widespread sharing contribute to an impact score of 6.
+
+Example 8:
+Claim: The World Health Organization (WHO) confirms that drinking green tea daily reduces the risk of cancer by 50%.
+Label: False
+Impact Score: 6
+Justification: This false claim may lead individuals to rely on green tea as a preventive measure against cancer, potentially neglecting other proven health practices. It involves an international health institution and a serious health topic. The claim evokes hope and might be widely shared among health-conscious individuals, leading to an impact score of 6.
+
+Example 9: 
+Claim: Elon Musk banned writer Stephen King from X after King referred to the tech mogul as Donald Trump’s “first lady.”
+Label: False
+Impact Score: 3
+Justification: This claim may cause minor reputational harm to Elon Musk and Stephen King but poses minimal societal impact. It doesn't provoke strong emotions or involve highly sensitive topics, and its potential for widespread dissemination is limited
+
+
+
+Now, please analyze the following claim using the guidelines above:
+Claim: [Insert Claim Here]
+Label: [Insert Label Here]
+Impact: [Insert Impact Score]
+Justification: [Insert Justification]
+

@@ -1,0 +1,167 @@
+Instructions:
+Based on the provided reasoning, generate a concise and objective summary explaining why the claim is rated with the given label.
+
+Guidelines:
+1. Generate Summary:
+   - Content:
+     - Explain the Rating: Clearly articulate why the claim has been given its specific label (e.g., True, False).
+     - Be Comprehensive: Ensure that all relevant points from the reasoning that support or refute the claim are included. Do not omit any justification that contributes to the label.
+     - Include atleast one evidence: If there are several evidences which support/refute the claim, include the most relevant one in the summary. 
+     - Be Concise and Objective:
+       - Conciseness: The summary length can vary, but it should include all important contextual information which supports or refutes the claim. 
+       - Objectivity: Maintain an unbiased tone. Present facts without inserting personal opinions or subjective language. The summary itself should be enough to justify the claim label - without th reasoning present. 
+   - Use Proper Evidence:
+     - Data: Incorporate specific data points, statistics that directly support or refute the claim.
+     - Contextual Details: Include relevant contextual information that provides background or explains the circumstances related to the claim.
+     - Direct Validation or Refutation: Ensure that the evidence used directly relates to the claim's validity. Avoid tangential or loosely connected information.
+   - Exclude External References:
+     - No External Fact-Checking Organizations: Do not mention or reference external fact-checking entities such as Snopes, PolitiFact, FactCheck.org, etc.
+     - Self-Contained Analysis: Rely solely on the evidence, reasoning, and context provided within the given information.
+
+2. Identify Claim Details:  
+   - Claim Author:
+     - Extraction: Identify and extract the name of the individual or entity that made the claim from the reasoning.
+     - Either provide the Claim Author or None - there is no justification needed for your selection. 
+     - None if Unavailable: If the reasoning does not specify an author, indicate `None`.
+   - Claim Date:
+     - Extraction: Determine and extract the date when the claim was made from the reasoning.
+     - Either provide the Claim Date or None - there is no justification needed for your selection. 
+     - None if Unavailable: If the reasoning does not specify a date, indicate `None`.
+
+
+Example 1:
+Claim: As of today, we have cut the flow of immigration by over half.
+Label: True
+Reasoning: Immigration has been one of the toughest issues for Vice President Kamala Harris to address on the campaign trail; her opponent, Donald Trump, has repeatedly spotlighted a spike of illegal immigration under her and President Joe Biden. 
+But in a recent CNN town hall in Delaware County, Pennsylvania, Harris offered an optimistic data point.
+"As of today, we have cut the flow of immigration by over half," Harris told moderator Anderson Cooper  Oct. 23. 
+She’s right. Depending on when you start counting, the drop is well over half.
+The night of the town hall, Harris’ campaign pointed PolitiFact to official federal government data on encounters at the United States’ southwestern border with Mexico. 
+Encounters are occasions when immigration officials stop someone at the border. A single person could be stopped more than once and counted more than once, and encounters do not mean that the person is let into the U.S. But for understanding migration at the U.S. border, encounters are a standard metric.
+Border Patrol encounters with migrants between ports of entry at the southwest land border peaked in December 2023 at about 250,000. In September, the latest month with available data and the end of fiscal year 2024, there were about 54,000 encounters. That’s a 78% drop, or more than half, U.S. Customs and Border Protection data shows.
+If you start with a different month, the drop is still significant. From September 2023 to September 2024, the number fell from about 219,000 to 54,000, a 75.3% decline. From January 2024 to September 2024, the number fell from about 124,200 to 54,000, a 56.5% drop.
+U.S. immigration experts said it’s difficult to isolate single causes for changes in border arrival counts, but a Biden executive action that limits immigrants’ ability to apply for asylum at the southwest border took effect in June and likely has had an effect.
+"The Biden playbook rests on narrowing asylum eligibility for migrants who cross the border illegally, expanding the use of lawful migration pathways, and encouraging Mexico, Panama, Costa Rica, and other regional partners to increase their migration controls and enforcement," the Migration Policy Institute, a nonpartisan think tank, wrote in a recent analysis.
+Taken together, the group added, "these policies have ushered in a new era of migration management in response to unprecedented changes in flows over the last three and a half years. These efforts represent new and innovative approaches to managing migration, even as they are subject to litigation and change."
+Mexican efforts to increase its enforcement, driven partly by U.S. pressure, have also helped decrease immigration, experts say. 
+Biden and former Mexican President Andrés Manuel López Obrador spoke multiple times beginning in late 2023 and released statements about joint efforts to curb immigration, fentanyl and firearms trafficking.
+Summary: The claim is supported by federal data showing a 57% to 78% reduction in border encounters over the past year. Policy changes, asylum restrictions, and joint efforts with Mexico contributed to the significant decrease.
+Claim Author: Kamala Harris
+Claim Date: Oct 23, 2024
+
+
+Example 2: 
+Claim: Fox News reported California Gov. Gavin Newsom “will withhold” California’s federal income tax.
+Label: False
+Reasoning: California Gov. Gavin Newsom may act as a foil to Republican President-elect Donald Trump. But some social media posts have overreached when assessing just how much the Democratic governor is antagonizing the returning commander in chief.
+We’ve already fact-checked and found False a claim that Newsom was considering plans to secede from the United States following Trump’s victory in the 2024 presidential election. 
+Now, a Nov. 9 Instagram post sharing a screenshot of an X post claims Newsom will withhold billions due in federal income tax.
+"BREAKING FOX NEWS: Reliable sources are reporting that California governor Gavin Newsom will withhold California’s 235 billion dollar 2025 federal income tax. This is a developing story," the screenshot said.
+This Instagram post was flagged as part of Meta’s efforts to combat false news and misinformation on its News Feed. (Read more about our partnership with Meta, which owns Facebook, Instagram and Threads.)
+Newsom’s office told PolitiFact in a statement that it’s "absolutely false" the governor is planning to withhold $235 billion in federal income tax next year. 
+Plus, taxpayers pay their federal income taxes directly to the IRS, not via the state. 
+Fox News didn’t immediately respond to PolitiFact’s questions about the post, but a network spokesperson told Reuters, "This was not reported on Fox News."
+We found no such story on Fox News’ website, nor credible evidence elsewhere to corroborate the Instagram post’s claim. 
+That’s because a parody account posted the X post image shared on Instagram. "Raw unfiltered parody account," the X account’s bio says. 
+We rate this post False.
+Summary: The claim is false because Fox News did not report that Governor Gavin Newsom will withhold California’s federal income tax. The alleged report originated from a parody X account and was shared via an Instagram post, which was flagged for misinformation. Newsom’s office confirmed the claim is entirely untrue, and federal taxes are paid directly to the IRS, not through state governments.
+Claim Author: None
+Claim Date: Nov 9, 2024
+
+
+
+Example 3: 
+Claim: Food and Drug Administration approval for updated COVID-19 vaccines requires a public health emergency declaration.
+Label: False:
+Reasoning: The U.S. Food and Drug Administration on Aug. 22 approved and granted emergency use authorization for updated mRNA COVID-19 vaccines.
+The Pfizer and Moderna vaccines target the KP.2 omicron strain that began to spread widely in the spring. Variants closely related to that strain are behind most recent COVID-19 cases.
+Dr. Jeffrey Barke, a California primary care physician, said the FDA had no right to grant emergency use authorization because the public health emergency declared for the pandemic expired in May 2023.
+"Emergency use authorization requires two elements. There has to be an emergency. There isn't. And there has to be no other available effective treatment. There is," Barke said in an Aug. 23 Instagram video, wearing a T-shirt that said "Misinformation Superspreader."
+Barke is a founding member of America’s Frontline Doctors — an anti-vaccine group — the co-author of a book about childhood vaccines and a frequent guest on conservative media.
+This post was flagged as part of Meta’s efforts to combat false news and misinformation on its News Feed. (Read more about our partnership with Meta, which owns Facebook and Instagram.)
+The Instagram post is wrong about the FDA’s ability to continue issuing emergency use authorizations for COVID-19-related products.
+The FDA didn’t immediately return PolitiFact's request for comment. But the public health emergency’s declared end doesn’t affect the agency’s authority to issue new emergency use authorizations for vaccines or drugs, the U.S. Department of Health and Human Services said in a May 9, 2023, news release.
+That’s because the COVID-19 public health emergency and the COVID-19 emergency use authorization were declared by Health and Human Services under two distinct laws.
+The health emergency — first declared in January 2020 and extended every three months until May 11, 2023 — was declared under Section 319 of the Public Health Service Act. Those emergency declarations last 90 days, but the HHS secretary can extend or end them early.
+The Health and Human Services Department made an emergency use declaration for COVID-19 under Section 564 of the Federal Food, Drug, and Cosmetic Act, an FDA frequently asked questions webpage said.
+That declaration allowed the FDA to grant individual emergency use authorization for COVID-19 vaccines, tests, devices and treatments. 
+To make an emergency use declaration, the health secretary must declare that circumstances exist that justify the authorization, such as a public health emergency or "significant potential" for a public health emergency.
+An emergency use declaration doesn’t hinge on a public health emergency declaration and it can stay in effect after a public health emergency ends, the FDA said. Former Health and Human Services Secretary Alex Azar in February 2020 made an emergency use authorization declaration for COVID-19 that current Secretary Xavier Becerra amended in March 2023.
+We contacted Barke for evidence to support his claim. He asked, "Is there a current COVID emergency?" He referred us to an FDA webpage about emergency use authorizations.
+That page said, "The ending of the COVID-19 PHE (public health emergency) will not impact FDA's ability to authorize medical countermeasures for emergency use. Existing COVID-19 EUAs (emergency use authorizations) will remain in effect, and the agency may continue to issue new EUAs if the situation meets the criteria to do so."
+Barke’s Instagram post also claimed that the new vaccines shouldn’t be approved because there are other treatments available. He named ivermectin and hydroxychloroquine in an email to PolitiFact.
+Ivermectin, used to treat parasites in humans, is not FDA-approved to treat or prevent COVID-19 infection. The FDA granted an EUA for hydroxychloroquine, a malaria drug, to treat hospitalized patients for COVID-19 in March 2020, but revoked it in June of that year because of cardiac risks. Clinical trials showed hydroxychloroquine was not effective in treating or preventing COVID-19. Doctors can still prescribe either drug off-label for COVID-19.
+The COVID-19 vaccines the FDA recently authorized target a new variant. The FDA grants emergency use authorization to products when there aren’t effective, approved and available alternatives. 
+The claim that the FDA shouldn’t be able to approve the new COVID-19 vaccines because there is no public health emergency and that other treatments are available is False.
+
+Summary: The claim is rated False because the FDA retains the authority to grant emergency use authorizations for updated COVID-19 vaccines independently of an active public health emergency. Official statements clarified that the end of the public health emergency does not limit the FDA's ability to approve vaccines based on specific criteria. Additionally, the FDA continued to issue emergency use authorizations for COVID-19 vaccines targeting new variants after the public health emergency concluded in May 2023.
+Claim Author: Dr. Jeffrey Barke
+Claim Date: Aug 23, 2024
+
+Example 4: 
+Claim: Vladimir Putin “orders destruction of all COVID-19 vaccines in Russia"
+Reasoning: A recent blog post claims that Russian President Vladimir Putin "ordered the destruction of all COVID-19 vaccine stockpiles on Russian soil" because of "an undeniable connection" between the vaccine and "a sudden surge of HIV infections in vaccinated persons."
+"Putin orders destruction of all COVID-19 vaccines in Russia," the March 4 post’s headline says.
+But that’s incorrect. 
+This post was flagged as part of Facebook’s efforts to combat false news and misinformation on its News Feed. (Read more about our partnership with Meta, which owns Facebook and Instagram.)
+We found no credible news reports or other sources to corroborate this post’s claims. 
+Plus, Real Raw News has a disclaimer saying it contains "humor, parody and satire," though the author has defended his stories as truth. PolitiFact reporting has found the website regularly publishes false, fantastical stories authored by someone using a pseudonym.
+COVID-19 vaccines don’t contain HIV, as some people have claimed, nor cause AIDS.
+And on March 5, a day after the publication of this blog post alleging that Putin was destroying all COVID-19 vaccines, the country’s health ministry announced on Telegram that it had recently sent more batches of the Sputnik V vaccine to Moscow and other regions that had reported low stockpiles.
+We rate this post False.
+Summary: The claim is rated False because there is no credible evidence that Putin ordered the destruction of all COVID-19 vaccine stockpiles in Russia. Official announcements on March 5 confirmed the continued distribution of Sputnik V vaccines, directly contradicting the claim. Additionally, the blog post making the assertion lacks credibility and is associated with sources known for disseminating false information.
+Claim Author: None
+Claim Date: March 4, 2023
+
+
+Example 5: 
+Claim: It was not former President Donald Trump who promoted the COVID-19 vaccine, but a “lookalike.”
+Reasoning: A woman fielding a question about former President Donald Trump’s COVID-19 vaccine promotion claimed that his past remarks may not have actually come from him.
+An Instagram clip posted Feb. 28 showed a woman being asked, "You have mentioned in the past that Donald Trump was here to help humanity. If that's true, then why did he promote the COVID vaccines and tell everyone to get it?" 
+She responded, "He did not. That was a, that was a lookalike that was doing that promotion for the, for the deep state."
+This post was flagged as part of Meta’s efforts to combat false news and misinformation on its News Feed. (Read more about our partnership with Meta, which owns Facebook and Instagram.)
+Trump promoted the COVID-19 vaccine several times. He did so on multiple platforms, some in front of audiences. There’s no evidence a lookalike made his public remarks.
+The Washington Post compiled instances when Trump promoted the COVID-19 vaccine. He also said multiple times that he had taken the vaccine and told people in interviews, rallies, public events and press statements to get vaccinated. Here are some of his quotes:
+On Fox News, March 16, 2021: "It works incredibly well. 95%, maybe even more than that … I would recommend it, and I would recommend it to a lot of people that don’t want to get it and a lot of those people voted for me, frankly. But again, we have our freedoms and we have to live by that and I agree with that also. But it’s a great vaccine, it’s a safe vaccine, and it’s something that works."
+At the Turning Point USA Student Action Summit on July 24, 2021, in Phoenix, (4:15:06-4:15:21): "How about the vaccine? I came up with the vaccine. They said it would take three to five years, gonna save the world. I recommend you take it, but I also believe in your freedoms 100%. But just so you understand, but it was a great achievement."
+At an Aug, 21, 2021, rally in Cullman, Alabama, (36:48-36:55): "You know what, I believe totally in your freedoms, I do. You gotta do what you have to do. But I recommend take the vaccines. I did it, it’s good. Take the vaccines."
+At Bill O’Reilly "History Tour" event Dec. 19, 2021, in Dallas: "If you don’t wanna take it you shouldn’t be forced to take it. No mandates. But take credit because we saved tens of millions of lives." O’Reilly said, "Both the President and I are vaxxed, and did you get the booster?" Trump said, "Yes."
+There’s plenty of documentation that Trump promoted and recommended the COVID-19 vaccine. We rate the claim that it was Trump’s lookalike that did so False
+
+Summary: The claim is rated False because multiple documented instances show that former President Donald Trump personally promoted the COVID-19 vaccine across various platforms and public events. There is no credible evidence to suggest that a lookalike was used for these promotions, as evidenced by Trump's direct statements and appearances endorsing the vaccine.
+Claim Author: None
+Claim Date: Feb 28, 2024
+
+Example 6: 
+Claim: Video shows a van “‘Queer testing’ kids without parental approval … (that) involves clothing removal.”
+Reasoning: In the video, a line of masked children queues in front of a black van parked in a crosswalk. Large, partially obscured white lettering on the van’s side appears to read "TESTING." 
+Five years ago, the scene likely would have seemed foreign and confusing. In 2023, after years of mask wearing and mobile COVID-19 testing centers, it harks back to the coronavirus pandemic. 
+But a social media user who recently shared the footage never mentions COVID-19.
+"‘Queer testing’ kids without parental approval," read the text added to the video, shared July 19 on Facebook. "Testing involves clothing removal."
+This post was flagged as part of Meta’s efforts to combat false news and misinformation on its News Feed. (Read more about our partnership with Meta, which owns Facebook and Instagram.)
+The kids shown in the video are accompanied by adults, who are also masked. The person recording the video, who is not visible, addresses those adults: "Do the parents know that you’re doing this to the kids?"
+He receives no immediate answer and repeatedly asks about parental consent forms as a woman in blue medical scrubs greets the kids at the front of the line. At one point, an adult responds to the video-recording person, saying, "I don’t know who you are." 
+Neither the video nor the caption explain what is meant by "queer testing," and we found nothing to suggest such a test exists.
+The video lacks distinct markers that would help identify where it was filmed, but information written on the van offers important clues. 
+On the passenger door, there is a rainbow letter Q, and white letters near the top of the van read, "www.labq.com." 
+PolitiFact visited the web address and found the site belongs to LabQ Diagnostics, a company providing lab tests including bloodwork and COVID-19 screening. The red, orange, green and blue Q is the company’s logo. 
+Using that information and a reverse-image search, PolitiFact found that the same video was previously shared April 29, 2022. 
+The videos are the same, but the added text differs greatly. 
+"School in NJ tests children for COVID without parental consent … " read text on the 2022 video.
+Our reverse-image search also turned up pictures of similar COVID-19 testing vans with signs that more clearly show LabQ Diagnostics was offering COVID-19 testing, not any other testing.
+
+
+Summary: The claim is rated False because the video depicts a LabQ Diagnostics COVID-19 testing van, not any "queer testing" involving clothing removal. The added text misleadingly labels the testing without evidence of such practices. Investigations revealed that LabQ Diagnostics specializes in COVID-19 and other lab tests, and previous instances of the video referenced legitimate COVID-19 testing without parental consent. There is no credible information supporting the existence of "queer testing."
+Claim Author: None
+Claim Date: July 19, 2024
+
+Now, your turn:
+Claim: [Insert the claim here]
+Label: [Insert the label here]
+Reasoning: [Insert the reasoning here]
+
+Summary: [Generate a concise summary based on the reasoning provided.]
+
+Claim Author: [Extract the claim author or put none if not available.]
+Claim Date: [Extract the claim date or put none if not available.]
+
