@@ -8,6 +8,9 @@ def filter_results(search_results):
         'linkedin.com',
         "fact-check",
         "snopes",
+        "youtube.com",
+        "youtube", 
+        "tiktok",
         "politifact.com",
         "factcheck.org",
     ]
@@ -33,5 +36,5 @@ if __name__ == "__main__":
     
     filtered_results = filter_results(search_results)
 
-    with open('output/search_results_filtered.json', 'w') as f:
+    with open('output/search_results_latest.json', 'w') as f:
         json.dump(filtered_results, f, indent=4, ensure_ascii=False)

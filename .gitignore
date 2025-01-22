@@ -1,6 +1,6 @@
 /backup
 /datasets
-/fnd-dataset-env
+/fnd-dataset-venv
 /output
 /secrets
-.DS_Store
+# .DS_Store

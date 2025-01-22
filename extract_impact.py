@@ -142,9 +142,7 @@ def main():
     saver.start()
     df = pd.read_csv("output/snopes_results_latest.csv")
     
-    # existing_df = pd.read_csv(output_file)
-    # processed_claims = set(existing_df['claim'].tolist())
-    # df = df[~df['claim'].isin(processed_claims)]
+
     records = df.to_dict('records')
 
 #start worker processes
